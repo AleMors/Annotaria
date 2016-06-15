@@ -1,0 +1,435 @@
+.container-fluid{margin-top:100px;}
+/*.scroller{overflow-y: scroll; height : 200px;}*/
+
+.container-fluid{margin-top:50px;}
+
+*{margin:0;padding:0}
+div.scroller{height: 250px;overflow-y: scroll;background: #efefef;}
+
+
+/* SCROLLBAR */
+::-webkit-scrollbar{width:10px;}
+::-webkit-scrollbar-track{border-radius:10px; background:#eee; -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.1);}
+::-webkit-scrollbar-thumb{border-radius:10px; background:#bbb;}
+
+/* Gestisce il colore del testo della navbar principale */
+.text-navbar{
+    color: white !important;
+    font-family: "arial" !important;
+    font-style: normal;
+}
+.documents{overflow-y:scroll; background-color: none !important;} /* scroller per i documenti */
+
+.btn {                                                                  /* modifiche ai bottoni */
+    font-family: Arial, Helvetica, sans-serif
+font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding: 3px 8px 3px 8px;
+    border: 1px solid ;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px }
+
+/*usato per imporre il ritorno a capo alla fine dello spazio */
+.aCapo{word-wrap:break-word !important;}
+
+.aCapoModal{word-break:break-all !important;
+    word-wrap: break-word !important;
+    width:500px!important;
+}
+
+
+textarea{
+    height:50px;
+    width:90%!important;
+    min-width: 90% !important;
+    max-width: 90% !important;
+    height: 200px !important;
+    min-height: 200px !important;
+    max-height: 200px !important;
+}
+
+/*setta il font dei bottoni */
+.normalize{
+    font-family: verdana !important;
+    font-weight:normal !important;
+}
+/*usato per le voci grassetto del popover*/
+.pop{
+    font-weight:bold !important;
+}
+.popover-auto-width .popover{
+    max-width: none;
+}
+
+/*utilizzato per la grandezza dei modali*/
+.allSpace{
+    width:100% !important;
+}
+
+/*utilizzato per l'allineamento dei modali*/
+.align{
+    text-align: center !important;
+}
+
+/*modifiche varie al bootstrap originale*/
+.col-lg-9{padding-left:0px; padding-right:40px; margin-top:20px; }
+.col-md-9{padding-left:0px;padding-right:40px; margin-top:20px;}
+.col-xs-12{padding-left:0px; padding-top: 20px;margin-top:20px;}
+.tab-content{margin-left:0px;}
+.tab-pane{margin-left:25px;}
+#tabs{margin-left:0px;}
+
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+
+.tab-content-modify{
+    margin-left:0px !important;
+    padding:0px !important;
+    text-align: left !important;
+}
+.side-navigation{height: 50%;}
+.tab-pane{margin-left:100px;}
+.side-navigation{margin-left:100px;}
+.tab-content{margin-left:5px;}
+#tabs{margin-left:50px;}
+
+
+/*-----------------------------------------------------------------------------------*/
+
+.buttonPos{
+    float: right;
+}
+/*per i filtri*/
+.mousePAD{
+    background-color: transparent !important;
+}
+
+.btn-default{
+    color:white !important
+}
+
+.destra{
+    float:right;
+    color:red;
+}
+div.panel{
+    font-size: 100% !important;
+}
+body{
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+#articleListPanel{
+    height: 280px !important;
+}
+#bodyDocAnnotation, #bodyFragAnnotation{
+    padding: 20px;
+    font-size: 16px;
+}
+.modal-title{
+    color:white !important;
+    font-family: verdana !important;
+    font-weight: normal !important;
+}
+
+.dateErr{
+    color : red;
+    display : none;
+}
+
+.zeroBorder{
+    border: 0px !important;
+}
+
+/*-----------------------------------------------------------------------------------*/
+.col-md-8{
+    padding: 20px !important;
+
+}
+.panelModify{
+    border:none !important;
+    font-size:100% !important;
+    padding-top: 0.5em !important;
+    padding-left: 0em !important;
+    padding-bottom: 0.5em !important;
+    margin-top: 0px!important;
+
+}
+.nullifica{
+    padding-bottom: 0em!important;
+    padding-top: 0em!important;
+    margin-top:0em!important;
+    margin-bottom: 0em!important;
+}
+.row{
+    width : 100% !important;
+}
+.container-fluid{
+    width:100% !important;
+    padding-left: 0em!important;
+    margin-left:0em !important;
+}
+
+.body{
+    width:100% !important;
+    padding:none !important;
+    margin-left:0%!important;
+    margin-right:0%!important;
+    box-sizing: none!important;
+}
+.text{
+    font-family: verdana !important;
+    font-size: 14px !important;
+}
+.crossImage{
+    width: 20px !important;
+    height: 20px !important;
+}
+.resize{
+    width: 100% !important;
+    height: 250px !important;
+}
+.resize2{
+    padding-bottom: 0px !important;
+    padding-top:10px !important;
+}
+.resize3{
+    height:34px !important;
+    float:right !important;
+}
+.resize4{
+    margin-top:0px!important;
+    border:0px !important;
+}
+.resize5{
+    width: 85% !important;
+    height: 60% !important;
+}
+
+.resize6{width:30px !important;
+    height:30px !important;
+    margin-left:10px !important;
+}
+.resize7{
+    width:558px !important;
+    height:34px !important;
+}
+.resize8{
+	width: 100% !important;
+
+}
+
+.label1{
+    width :75% !important;
+    float:left!important;
+}
+
+.label2{
+    width :25% !important;
+    float:right !important;
+}
+.label3{
+    width:75% !important;
+    float:left !important;
+}
+.label4{
+    width:10% !important;
+    float:right!important;
+}
+.modal{
+    margin-top: 0em !important;
+}
+
+.fade{
+    margin-top: 0em !important;
+}
+
+.modal-dialog{
+    margin-top:50px !important;
+    font-family: verdana !important;
+
+}
+.panel-group{
+    margin-bottom: 0px !important;
+    margin-top: 0pc !important;
+}
+
+.bottom{
+    margin-top: 1em !important;
+}
+
+.distance{
+    margin-top: 20px !important;
+}
+
+.fontpop{
+    font-family: verdana !important;
+}
+.quadrato{
+    -moz-border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    border-radius: 5px !important;
+}
+
+.buttonAlign{
+    padding-top : 5px !important;
+    padding-bottom : 7px !important;
+
+    margin-top: 7px !important;
+}
+.buttonDistance{
+    margin-top:10px !important;
+}
+.buttonDistance2{
+    margin-top:10px !important;
+}
+.border-right{
+    border-top-right-radius: 0px !important;
+    border-right: 0px !important;
+}
+
+.no-margin{
+    margin-top:0em !important;
+}
+.white{
+    background-color : white !important;
+}
+.font-resize{
+    font-size:12px !important;
+}
+
+#manage-annotations-tBody td {
+    word-break: break-all;
+}
+
+/* colori del testo*/
+.darkred{color:darkred;}
+.green{color:darkgreen;}
+.darkblue{color:darkblue;}
+.darkgolden{color:darkgoldenrod;}
+.violet{color:violet;}
+.chocolate{color:chocolate;}
+.cenere{color:#3f4c6b;}
+
+.darkmagenta{background-color:#FDBCB4 !important;}
+.verdeacqua{background-color:#CDC5C2 !important;}
+.darkviolet{background-color: #C5E384 !important;}
+.darkkhaki{background-color: #FCE883!important;}
+.darksalmon{background-color:#C5D0E6 !important;}
+.darkgray{background-color: #A8E4A0 !important;}
+.darkgreen{background-color:#EFDECD !important;}
+.darkorange{background-color:#EBC7DF !important;}
+.darklategray{background-color: #CDA4DE!important;}
+.darkslateblue{background-color: #93DFB8 !important;}
+
+/*colori delle annotazioni */
+.color1{background:darkred !important;}
+.color2{background:darkgreen !important;}
+.color3{background:darkblue !important;}
+.color4{background:darkgoldenrod !important;}
+.color5{background:violet !important;}
+.color6{background:chocolate !important;}
+.color7{background:#3f4c6b !important;}
+
+/*annotazioni su frammento*/
+.denotesPerson{
+    background-color:#FDBCB4 ;
+}
+.denotesPlace{
+    background-color:  #CDC5C2;
+}
+.denotesDisease{
+    background-color: #C5E384;
+}
+.hasSubject{
+    background-color: #FCE883;
+}
+.relatesTo{
+    background-color:#C5D0E6;
+}
+.hasClarityScore{
+    background-color: #A8E4A0;
+}
+.hasOriginalityScore{
+    background-color:#EFDECD;
+}
+.hasFormattingScore{
+    background-color: #EBC7DF;
+}
+.cites{
+    background-color:#CDA4DE;
+}
+.hasComment{
+    background-color: #93DFB8;
+}
+
+.avoid{
+    pointer-events: none;
+}
+
+.sovrapposto{
+    background-color: coral !important;
+    border-style: dashed !important;
+    border-radius: 5px !important;
+    border-color: black !important;
+    border-width: 2px;
+}
+
+
+.resizefrag{
+    height : 200px !important;
+}
+
+.fragselect{
+    width : 400px !important;
+    height :25px !important;
+}
+.fragtext{
+
+    padding-top: 10px !important;
+    padding-bottom:15px !important;
+    font-size:18px !important;
+    font-family:verdana !important;
+}
+.fragdiv{
+    padding:40px !important;
+
+}
+
+/* CLASSI PER LO STILE DELL'HELP */
+.help-structure{
+    height:400px!important;
+    text-align: justify !important;
+    padding-right : 20px !important;
+    padding-left : 20px !important;
+}
+.help-number{
+    margin-left: 25px !important;
+}
+.findArgument{
+    color:#333!important;
+    border-color: #ccc !important;
+}
+.linkDisable{
+    pointer-events: none !important;
+    cursor: default !important;
+}
+
+.modaleMessaggio{
+	height : 150px !important;
+}
+
+
+
